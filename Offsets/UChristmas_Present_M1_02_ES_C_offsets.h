@@ -1,0 +1,6 @@
+namespace offsets
+{
+	namespace UChristmas_Present_M1_02_ES_C
+	{
+	}
+} 

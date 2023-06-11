@@ -1,0 +1,74 @@
+namespace offsets
+{
+	namespace UCharacterCreationMenu
+	{
+			constexpr auto _canvasMain = 0x260; // Size: 8, Type: struct UCanvasPanel*
+			constexpr auto _canvasContent = 0x268; // Size: 8, Type: struct UCanvasPanel*
+			constexpr auto _overlayMenu = 0x270; // Size: 8, Type: struct UOverlay*
+			constexpr auto _widgetSwitcher = 0x280; // Size: 8, Type: struct UWidgetSwitcher*
+			constexpr auto _editableTextNameCharacterPanel = 0x288; // Size: 8, Type: struct UEditableTextBox*
+			constexpr auto _borderNameCharacterPanel = 0x290; // Size: 8, Type: struct UBorder*
+			constexpr auto _availableAttributePointsDisplay = 0x298; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _sliderStrength = 0x2a0; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _sliderConstitution = 0x2a8; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _sliderDexterity = 0x2b0; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _sliderIntelligence = 0x2b8; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _carouselGender = 0x2c0; // Size: 8, Type: struct UTrashNamedCarouselWidget*
+			constexpr auto _sliderHead = 0x2c8; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _appearanceUpgradeConditionDisplay = 0x2d0; // Size: 8, Type: struct UCCGameUpgradeConditionDisplayWidget*
+			constexpr auto _sliderAge = 0x2d8; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _carouselTattoos = 0x2e0; // Size: 8, Type: struct UTrashNamedCarouselWidget*
+			constexpr auto _sliderTattooStyle = 0x2e8; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _tattooUpgradeConditionDisplay = 0x2f0; // Size: 8, Type: struct UCCGameUpgradeConditionDisplayWidget*
+			constexpr auto _carouselConcealedMode = 0x2f8; // Size: 8, Type: struct UTrashNamedCarouselWidget*
+			constexpr auto _sliderPenisBreastSize = 0x300; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _buttonRandomizeAttributes = 0x308; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _buttonCancelToMainMenu = 0x310; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _buttonNextToFace = 0x318; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _overlayAttributeConfirmation = 0x320; // Size: 8, Type: struct UOverlay*
+			constexpr auto _buttonCancelCharacter = 0x328; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _buttonContinueCharacter = 0x330; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _editableTextNameFacePanel = 0x338; // Size: 8, Type: struct UEditableTextBox*
+			constexpr auto _borderNameFacePanel = 0x340; // Size: 8, Type: struct UBorder*
+			constexpr auto _buttonRandomizeFace = 0x348; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _buttonBackToCharacter = 0x350; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _buttonNextToSkills = 0x358; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _sliderFaceType = 0x360; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _presetColorPickerSkinTone = 0x368; // Size: 8, Type: struct UPresetColorPicker*
+			constexpr auto _sliderHairStyle = 0x370; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _hairStyleUpgradeConditionDisplay = 0x378; // Size: 8, Type: struct UCCGameUpgradeConditionDisplayWidget*
+			constexpr auto _presetColorPickerHairColor = 0x380; // Size: 8, Type: struct UPresetColorPicker*
+			constexpr auto _sliderFacialHairStyle = 0x388; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _facialHairStyleUpgradeConditionDisplay = 0x390; // Size: 8, Type: struct UCCGameUpgradeConditionDisplayWidget*
+			constexpr auto _presetColorPickerEyeColor = 0x398; // Size: 8, Type: struct UPresetColorPicker*
+			constexpr auto _sliderIrisType = 0x3a0; // Size: 8, Type: struct UTrashNamedSliderWidget*
+			constexpr auto _editableTextNameSkillsPanel = 0x3a8; // Size: 8, Type: struct UEditableTextBox*
+			constexpr auto _borderNameSkillsPanel = 0x3b0; // Size: 8, Type: struct UBorder*
+			constexpr auto _attributeDisplayConstitution = 0x3b8; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _attributeDisplayDexterity = 0x3c0; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _attributeDisplayIntelligence = 0x3c8; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _attributeDisplayStrength = 0x3d0; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _skillPointDisplayConstitution = 0x3d8; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _skillPointDisplayDexterity = 0x3e0; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _skillPointDisplayIntelligence = 0x3e8; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _skillPointDisplayStrength = 0x3f0; // Size: 8, Type: struct UCCNonSelectableTextWidget*
+			constexpr auto _skillBoxStrength = 0x3f8; // Size: 8, Type: struct UVerticalBox*
+			constexpr auto _skillBoxConstitution = 0x400; // Size: 8, Type: struct UVerticalBox*
+			constexpr auto _skillBoxDexterity = 0x408; // Size: 8, Type: struct UVerticalBox*
+			constexpr auto _skillBoxIntelligence = 0x410; // Size: 8, Type: struct UVerticalBox*
+			constexpr auto _buttonRandomizeSkills = 0x418; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _textNameAlreadyTaken = 0x420; // Size: 8, Type: struct UTextBlock*
+			constexpr auto _buttonBackToFace = 0x428; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _buttonSwitchToCriminalRecord = 0x430; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _faceOptionsScrollbox = 0x438; // Size: 8, Type: struct UScrollBox*
+			constexpr auto _overlaySkillConfirmation = 0x440; // Size: 8, Type: struct UOverlay*
+			constexpr auto _buttonCancelSkills = 0x448; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _buttonContinueSkills = 0x450; // Size: 8, Type: struct UConZStandardButton*
+			constexpr auto _criminalRecord = 0x458; // Size: 8, Type: struct UCriminalRecord*
+			constexpr auto _errorDialogPanel = 0x460; // Size: 8, Type: struct UVerticalBox*
+			constexpr auto _nonImplementedSkills = 0x468; // Size: 16, Type: struct TArray<struct FCCNonImplementedSkill>
+			constexpr auto _pointDisplayAvailableColor = 0x478; // Size: 16, Type: struct FLinearColor
+			constexpr auto _pointDisplayDepletedColor = 0x488; // Size: 16, Type: struct FLinearColor
+			constexpr auto _skillSliderClass = 0x498; // Size: 8, Type: UCCSkillSliderWidget*
+	}
+} 

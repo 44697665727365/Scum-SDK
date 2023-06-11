@@ -1,0 +1,70 @@
+namespace offsets
+{
+	namespace AFishingRod
+	{
+			constexpr auto AttachmentAdded = 0x910; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto AttachmentRemoved = 0x920; // Size: 16, Type: struct FMulticastInlineDelegate
+			constexpr auto SkeletalMesh = 0x930; // Size: 8, Type: struct USkeletalMeshComponent*
+			constexpr auto FishingAreaRadius = 0x938; // Size: 4, Type: float
+			constexpr auto _fishingRodOwner = 0x940; // Size: 8, Type: struct APrisoner*
+			constexpr auto _fishingAttachmentsReplicated = 0x960; // Size: 16, Type: struct TArray<struct AFishingAttachment*>
+			constexpr auto _reelingAmount = 0x970; // Size: 4, Type: float
+			constexpr auto _fishSpeciesData = 0x9c0; // Size: 8, Type: struct UFishSpeciesData*
+			constexpr auto _minigameCaughtItem = 0xa40; // Size: 8, Type: struct AItem*
+			constexpr auto _minigameTrophyActor = 0xa48; // Size: 8, Type: struct AFishingTrophyActor*
+			constexpr auto _isInTrophyState = 0xa51; // Size: 1, Type: bool
+			constexpr auto _floaterSimulatedWeight = 0xa58; // Size: 4, Type: float
+			constexpr auto _floaterSimulatedWeightDuringFastReeling = 0xa5c; // Size: 4, Type: float
+			constexpr auto _shortCastingPower = 0xa60; // Size: 4, Type: float
+			constexpr auto _minCastingPower = 0xa64; // Size: 4, Type: float
+			constexpr auto _maxCastingPower = 0xa68; // Size: 4, Type: float
+			constexpr auto _safeAreaRadius = 0xa6c; // Size: 4, Type: float
+			constexpr auto _fishNotBitingAreaRadius = 0xa70; // Size: 4, Type: float
+			constexpr auto _minigameSafeAreaRadius = 0xa74; // Size: 4, Type: float
+			constexpr auto _baseReelingSpeed = 0xa78; // Size: 4, Type: float
+			constexpr auto _fastReelingSpeed = 0xa7c; // Size: 4, Type: float
+			constexpr auto _defaultWaterVelocityMultiplier = 0xa80; // Size: 4, Type: float
+			constexpr auto _shortCastingAngle = 0xa84; // Size: 4, Type: float
+			constexpr auto _longCastingAngle = 0xa88; // Size: 4, Type: float
+			constexpr auto _fishingLineTensionToHookThreshold = 0xa8c; // Size: 4, Type: float
+			constexpr auto _caughtFishOffsetTransform = 0xa90; // Size: 48, Type: struct FTransform
+			constexpr auto _trophyActorClass = 0xac0; // Size: 8, Type: AFishingTrophyActor*
+			constexpr auto _sendStateInterval = 0xac8; // Size: 4, Type: float
+			constexpr auto _fishIdleTimeAtStart = 0xb40; // Size: 4, Type: float
+			constexpr auto _fishStruggleOffsetAmplitude = 0xb44; // Size: 4, Type: float
+			constexpr auto _fishStruggleOffsetPeriod = 0xb48; // Size: 4, Type: float
+			constexpr auto _minDistanceToApplyStruggleOffset = 0xb4c; // Size: 4, Type: float
+			constexpr auto _fishToSurfaceRadius = 0xb50; // Size: 4, Type: float
+			constexpr auto _fishGenericSpeed = 0xb54; // Size: 4, Type: float
+			constexpr auto _minFishDirectionChangeTime = 0xb58; // Size: 4, Type: float
+			constexpr auto _maxFishDirectionChangeTime = 0xb5c; // Size: 4, Type: float
+			constexpr auto _fishDrainStaminaModifier = 0xb60; // Size: 4, Type: float
+			constexpr auto _fishRecoveryStaminaModifier = 0xb64; // Size: 4, Type: float
+			constexpr auto _lineBreakConstant = 0xb68; // Size: 4, Type: float
+			constexpr auto _reelingTensionModifier = 0xb6c; // Size: 4, Type: float
+			constexpr auto _fishRecoveryRadiusBuffer = 0xb70; // Size: 4, Type: float
+			constexpr auto _fishUnderWaterSurfaceOffset = 0xb74; // Size: 4, Type: float
+			constexpr auto _fishStrengthModifier = 0xb78; // Size: 4, Type: float
+			constexpr auto _fishingBoundsAngle = 0xb7c; // Size: 4, Type: float
+			constexpr auto _fishingBoundsRadius = 0xb80; // Size: 4, Type: float
+			constexpr auto _fishingLineInTensionDamageAmount = 0xb84; // Size: 4, Type: float
+			constexpr auto _fishingLineOnBreakDamageAmount = 0xb88; // Size: 4, Type: float
+			constexpr auto _fishStuckTimeThreshold = 0xb8c; // Size: 4, Type: float
+			constexpr auto _fishNewDirectionAngleStep = 0xb90; // Size: 4, Type: float
+			constexpr auto _useRodAsRootLocation = 0xb94; // Size: 1, Type: bool
+			constexpr auto _castingObjectDropToWaterAudioEvent = 0xb98; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _fishHookedAudioEvent = 0xba0; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _wireBreakAudioEvent = 0xba8; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _wireTensionStartAudioEvent = 0xbb0; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _wireTensionEndAudioEvent = 0xbb8; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _menuButtonClickAudioEvent = 0xbc0; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _castPower = 0xbc8; // Size: 4, Type: float
+			constexpr auto _shouldShortCast = 0xbcc; // Size: 1, Type: bool
+			constexpr auto _minFishRecoveryTime = 0xbdc; // Size: 4, Type: float
+			constexpr auto _maxFishRecoveryTime = 0xbe0; // Size: 4, Type: float
+			constexpr auto _minFishStaminaDrainTime = 0xbe4; // Size: 4, Type: float
+			constexpr auto _maxFishStaminaDrainTime = 0xbe8; // Size: 4, Type: float
+			constexpr auto _randomFishDrainAndRecovery = 0xbec; // Size: 1, Type: bool
+			constexpr auto _isFastReeling = 0xbf4; // Size: 1, Type: bool
+	}
+} 

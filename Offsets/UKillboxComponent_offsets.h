@@ -1,0 +1,73 @@
+namespace offsets
+{
+	namespace UKillboxComponent
+	{
+			constexpr auto _isActivated = 0xb0; // Size: 1, Type: bool
+			constexpr auto _isFinale = 0xb1; // Size: 1, Type: bool
+			constexpr auto _killBoxDuration = 0xb4; // Size: 4, Type: float
+			constexpr auto _lockdownDuration = 0xb8; // Size: 4, Type: float
+			constexpr auto _killBoxResetDelay = 0xbc; // Size: 4, Type: float
+			constexpr auto _reductionTimeCap = 0xc0; // Size: 4, Type: float
+			constexpr auto _reductionTimePenalty = 0xc4; // Size: 4, Type: float
+			constexpr auto _saveStateInterval = 0xc8; // Size: 4, Type: float
+			constexpr auto _gasEntranceTime = 0xcc; // Size: 4, Type: float
+			constexpr auto _gasPoisoningCondition = 0xd0; // Size: 8, Type: UPrisonerBodyCondition_KillBoxGasPoisoning*
+			constexpr auto _panicModeTimeCut = 0xd8; // Size: 4, Type: float
+			constexpr auto _laserEntranceTime = 0xdc; // Size: 4, Type: float
+			constexpr auto _finaleEntranceCloseTime = 0xe0; // Size: 4, Type: float
+			constexpr auto _difficultyCalibrationTime = 0xe4; // Size: 4, Type: float
+			constexpr auto _calibrationPrisonerThreshold = 0xe8; // Size: 4, Type: int32_t
+			constexpr auto _zapperDamageModifierPerPrisoner = 0xec; // Size: 4, Type: float
+			constexpr auto _maxZapperDamageModifier = 0xf0; // Size: 4, Type: float
+			constexpr auto _availableDifficultyConfigurations = 0xf8; // Size: 16, Type: struct TArray<struct FRoomDifficultyConfiguration>
+			constexpr auto _maxSpawnedZombies = 0x108; // Size: 4, Type: int32_t
+			constexpr auto _maxSpawnedZombiesPerMistake = 0x10c; // Size: 4, Type: int32_t
+			constexpr auto _prisonerNumPerGoldDoorZapper = 0x110; // Size: 4, Type: int32_t
+			constexpr auto _maxGoldDoorZappers = 0x114; // Size: 4, Type: int32_t
+			constexpr auto _specialPauseCountdownDuration = 0x118; // Size: 4, Type: float
+			constexpr auto _pauseMaxPrisonerCount = 0x11c; // Size: 4, Type: int32_t
+			constexpr auto _spawnMinPrisonerCount = 0x120; // Size: 4, Type: int32_t
+			constexpr auto _specialEventInterval = 0x124; // Size: 4, Type: float
+			constexpr auto _laserQuoteTimeRemainingTrigger = 0x128; // Size: 4, Type: float
+			constexpr auto _gasQuoteTimeRemainingTrigger = 0x12c; // Size: 4, Type: float
+			constexpr auto _randomQuoteInterval = 0x130; // Size: 4, Type: float
+			constexpr auto _timedHostBlockTime = 0x134; // Size: 4, Type: float
+			constexpr auto _killBoxOpeningQuotes = 0x138; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _killBoxLaserAnnouncementQuotes = 0x148; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _killBoxDescriptionQuotes = 0x158; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _killBoxRandomnQuotes = 0x168; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _killBoxFailureQuotes = 0x178; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _killBoxGasAnnouncementQuotes = 0x188; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _killBoxZombieSpawnQuotes = 0x198; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _killBoxTimePauseQuotes = 0x1a8; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _difficultyCalibrationQuote = 0x1b8; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto KillBoxMusicStart = 0x1c8; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _killBoxMusicStop = 0x1d0; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _killBoxGasSound = 0x1d8; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto KillBox30SecondsMark = 0x1e0; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto KillBox10SecondsMark = 0x1e8; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto KillBox5SecondsMark = 0x1f0; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto KillBox4SecondsMark = 0x1f8; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto KillBox3SecondsMark = 0x200; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto KillBox2SecondsMark = 0x208; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto KillBox1SecondsMark = 0x210; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto KillBoxBuzzerSound = 0x218; // Size: 8, Type: struct UAkAudioEvent*
+			constexpr auto _killBoxEntrance = 0x220; // Size: 8, Type: struct ADoor*
+			constexpr auto _detectionField = 0x228; // Size: 8, Type: struct AKillBoxDetectionField*
+			constexpr auto _laserComponent = 0x230; // Size: 8, Type: struct UMovableCollisionFieldComponent*
+			constexpr auto _spawnPoints = 0x238; // Size: 16, Type: struct TArray<struct AKillBoxSpawnPoint*>
+			constexpr auto _hardSpawnPoints = 0x248; // Size: 16, Type: struct TArray<struct AKillBoxSpawnPoint*>
+			constexpr auto _spawnedZombies = 0x258; // Size: 16, Type: struct TArray<struct AZombie2*>
+			constexpr auto _currentAudioComponent = 0x268; // Size: 8, Type: struct UAkComponent*
+			constexpr auto _musicComponent = 0x270; // Size: 8, Type: struct UAkComponent*
+			constexpr auto _remainingTime = 0x278; // Size: 4, Type: float
+			constexpr auto _unlockFailureAssistanceBonus = 0x27c; // Size: 4, Type: float
+			constexpr auto _queuedQuotes = 0x2e0; // Size: 16, Type: struct TArray<struct UAkAudioEvent*>
+			constexpr auto _electricalDoors = 0x2f0; // Size: 16, Type: struct TArray<struct ADoor*>
+			constexpr auto _roomDefinitions = 0x300; // Size: 16, Type: struct TArray<struct FRoomDefinition>
+			constexpr auto _timerWidgets = 0x310; // Size: 16, Type: struct TArray<struct UKillBoxTimerWidget*>
+			constexpr auto _gasEmitters = 0x320; // Size: 16, Type: struct TArray<struct UParticleSystemComponent*>
+			constexpr auto _gasMist = 0x330; // Size: 8, Type: struct UParticleSystemComponent*
+			constexpr auto _panicButton = 0x338; // Size: 8, Type: struct ASwitch*
+	}
+} 

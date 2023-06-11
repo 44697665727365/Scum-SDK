@@ -1,0 +1,74 @@
+namespace offsets
+{
+	namespace UDerivedWidgetsData
+	{
+			constexpr auto CraftingPanel = 0x30; // Size: 8, Type: UUserWidget*
+			constexpr auto CraftingInfo = 0x38; // Size: 8, Type: UUserWidget*
+			constexpr auto CraftingSectionContainer = 0x40; // Size: 8, Type: UUserWidget*
+			constexpr auto CraftableItem = 0x48; // Size: 8, Type: UUserWidget*
+			constexpr auto CraftingIngredient = 0x50; // Size: 8, Type: UUserWidget*
+			constexpr auto CraftingPossibleItem = 0x58; // Size: 8, Type: UUserWidget*
+			constexpr auto StripedFiller = 0x60; // Size: 8, Type: UUserWidget*
+			constexpr auto AvailableItem = 0x68; // Size: 8, Type: UUserWidget*
+			constexpr auto WorldCraftingMarker = 0x70; // Size: 8, Type: UWorldCraftingMarkerWidget*
+			constexpr auto LoadingScreen = 0x78; // Size: 8, Type: ULoadingScreen*
+			constexpr auto InteractionWidgetClass = 0x80; // Size: 8, Type: UUserWidget*
+			constexpr auto InteractionGroupWidgetClass = 0x88; // Size: 8, Type: UUserWidget*
+			constexpr auto InteractionContainerWidgetClass = 0x90; // Size: 8, Type: UUserWidget*
+			constexpr auto ItemWidgetClass = 0x98; // Size: 8, Type: UUserWidget*
+			constexpr auto InventoryWidgetClass = 0xa0; // Size: 8, Type: UUserWidget*
+			constexpr auto InventorySlotWidgetClass = 0xa8; // Size: 8, Type: UUserWidget*
+			constexpr auto WarningWidgetClass = 0xb0; // Size: 8, Type: UUserWidget*
+			constexpr auto HudWidgetClass = 0xb8; // Size: 8, Type: UUserWidget*
+			constexpr auto LoadingWidgetClass = 0xc0; // Size: 8, Type: UUserWidget*
+			constexpr auto LoadingIconWidgetClass = 0xc8; // Size: 8, Type: UUserWidget*
+			constexpr auto SpawnScreenWidgetClass = 0xd0; // Size: 8, Type: UUserWidget*
+			constexpr auto WaypointScreenWidgetClass = 0xd8; // Size: 8, Type: UUserWidget*
+			constexpr auto HoverPanelWidgetClass = 0xe0; // Size: 8, Type: UUserWidget*
+			constexpr auto ActionProgressWidgetClass = 0xe8; // Size: 8, Type: UUserWidget*
+			constexpr auto ItemSelectionWidgetClass = 0xf0; // Size: 8, Type: UUserWidget*
+			constexpr auto ExamineWidgetClass = 0xf8; // Size: 8, Type: UUserWidget*
+			constexpr auto HandsInventoryWidgetClass = 0x100; // Size: 8, Type: UUserWidget*
+			constexpr auto GenericItemInventoryWidgetClass = 0x108; // Size: 8, Type: UUserWidget*
+			constexpr auto InventoryContainersWidgetClass = 0x110; // Size: 8, Type: UUserWidget*
+			constexpr auto CombinedInventoryWidgetClass = 0x118; // Size: 8, Type: UUserWidget*
+			constexpr auto TeamInvitationWidgetClass = 0x120; // Size: 8, Type: UUserWidget*
+			constexpr auto CraftingInfoWidgetClass = 0x128; // Size: 8, Type: UUserWidget*
+			constexpr auto CraftingComponentWidgetClass = 0x130; // Size: 8, Type: UUserWidget*
+			constexpr auto CraftingRecipeWidgetClass = 0x138; // Size: 8, Type: UUserWidget*
+			constexpr auto EmptySlotWidgetClass = 0x140; // Size: 8, Type: UUserWidget*
+			constexpr auto PreviousNextSwitchWidgetClass = 0x148; // Size: 8, Type: UUserWidget*
+			constexpr auto VicinityItemContainerWidgetClass = 0x150; // Size: 8, Type: UUserWidget*
+			constexpr auto QuickAccessItemWidget = 0x158; // Size: 8, Type: UUserWidget*
+			constexpr auto ChangeTextWidgetClass = 0x160; // Size: 8, Type: UChangeTextWidget*
+			constexpr auto ItemStatusWidgetClass = 0x168; // Size: 8, Type: UItemStatusWidget*
+			constexpr auto HealthWidgetClass = 0x170; // Size: 8, Type: UHealthWidget*
+			constexpr auto GameEventCardWidgetClass = 0x178; // Size: 8, Type: UUserWidget*
+			constexpr auto GameEventScoreboardWidgetClass = 0x180; // Size: 8, Type: UUserWidget*
+			constexpr auto GameEventMiniScoreboardWidgetClass = 0x188; // Size: 8, Type: UUserWidget*
+			constexpr auto TournamentScoreboardWidgetClass = 0x190; // Size: 8, Type: UUserWidget*
+			constexpr auto CircularMenuWidgetClass = 0x198; // Size: 8, Type: UUserWidget*
+			constexpr auto CircularMenuSegmentWidgetClass = 0x1a0; // Size: 8, Type: UUserWidget*
+			constexpr auto LockpickingWidgetClass = 0x1a8; // Size: 8, Type: UUserWidget*
+			constexpr auto DoorUpgradeWidgetClass = 0x1b0; // Size: 8, Type: UDoorUpgradeWidget*
+			constexpr auto InventoryContainerWidget2Test = 0x1b8; // Size: 8, Type: UUserWidget*
+			constexpr auto InventoryItemWidget2Test = 0x1c0; // Size: 8, Type: UUserWidget*
+			constexpr auto ItemInventoryWidget2Holsters = 0x1c8; // Size: 8, Type: UUserWidget*
+			constexpr auto ItemInventoryWidget2 = 0x1d0; // Size: 8, Type: UUserWidget*
+			constexpr auto InventoryPanelSideLayerWidget = 0x1d8; // Size: 8, Type: UUserWidget*
+			constexpr auto ItemSplittingWidgetClass = 0x1e0; // Size: 8, Type: UUserWidget*
+			constexpr auto Widgets = 0x1e8; // Size: 80, Type: struct TMap<uint8_t , UUserWidget*>
+			constexpr auto ObjectivesWidgetClass = 0x238; // Size: 8, Type: UUserWidget*
+			constexpr auto MissionPromptClass = 0x240; // Size: 8, Type: UUserWidget*
+			constexpr auto MissionResultClass = 0x248; // Size: 8, Type: UUserWidget*
+			constexpr auto MissionItemClass = 0x250; // Size: 8, Type: UUserWidget*
+			constexpr auto ObjectiveItemClass = 0x258; // Size: 8, Type: UUserWidget*
+			constexpr auto MissionRewardClass = 0x260; // Size: 8, Type: UUserWidget*
+			constexpr auto RewardItemWidgetClass = 0x268; // Size: 8, Type: UUserWidget*
+			constexpr auto StatisticsListRow = 0x270; // Size: 8, Type: UUserWidget*
+			constexpr auto ItemTooltipPanels = 0x278; // Size: 16, Type: struct TArray<struct FTooltipPanelData>
+			constexpr auto MalfunctionsContainerClass = 0x288; // Size: 8, Type: UUserWidget*
+			constexpr auto WeaponAmmoCountContainerClass = 0x290; // Size: 8, Type: UUserWidget*
+			constexpr auto PlaceableElementWidgetClass = 0x298; // Size: 8, Type: UUserWidget*
+	}
+} 
